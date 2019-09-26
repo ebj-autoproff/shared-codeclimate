@@ -27,7 +27,7 @@ plugins:
       file_extensions: "php"
     checks:
       Generic Files LineLength TooLong:
-        enabled:false
+        enabled: false
 exclude_patterns:
   - "tests/"
   - "**.md"
