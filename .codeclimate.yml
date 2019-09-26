@@ -23,11 +23,8 @@ plugins:
   phpcodesniffer:
     enabled: true
     config:
-      standard: "PSR2"
+      standard: "phpcs.xml"
       file_extensions: "php"
-    checks:
-      Generic Files LineLength TooLong:
-        enabled: false
 exclude_patterns:
   - "tests/"
   - "**.md"
